@@ -1,0 +1,38 @@
+<form action="/sign_up" method="POST">
+  <h2>Sign up</h2>
+  <div class="text">
+  <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+</div>
+  <br>
+  <div class="email" >
+  <input type="email" class="box" id="email" name="email" placeholder="Email" required />
+</div>
+  <br>
+  <div class="pass">
+  <input type="password" class="box" id="password" name="password" placeholder="Password" required />
+</div>
+  <br>
+  <div class="number">
+  <input type="number" class="box" id="age" name="Age" placeholder="Age" min="18" max="70" required/>
+</div>
+  <br>
+  <div class="text">
+  <input type="text" class="box" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" />
+  <!-- <script>var input = document.querySelector("#phone"); window.intlTelInput(input, {
+    separateDialCode: true, customPlaceholder: function (selectedCountryPlaceholder,
+      selectedCountryData) { return "e.g. " + selectedCountryPlaceholder; },
+  });
+  </script> -->
+</div>
+  <br>
+<div class="gender">
+  <input type="text" name="Gender" list="Gender" placeholder="Gender">
+      <datalist id="Gender">
+        <option value="Male">
+        <option value="Female">
+      </datalist>
+    </div>
+  <br>
+  <div class="submit">
+  <input type="submit" value="Submit" id="submit" />
+  </div>

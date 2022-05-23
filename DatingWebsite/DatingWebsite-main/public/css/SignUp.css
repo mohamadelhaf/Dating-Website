@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2020/09/Romantic-couple-kissing-hug-snow-winter-vacation-Hd-wallpaper-1920x1440.jpg);
+    background-position: center center 100% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.444);   
+    background-blend-mode: lighten;
+}
+
+h2{
+    text-align: center;
+
+}
+.text{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+.email{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+.pass{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+.number{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+.submit{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+.gender{
+    text-align: center;
+    margin-top: 2em;
+    opacity: 0.7;
+}
+input[type="text"]{
+    width: 200px;
+    height: 40px;
+    
+}
+input[type="email"]{
+    width: 200px;
+    height: 40px;
+    
+}
+input[type="password"]{
+    width: 200px;
+    height: 40px;
+    
+}
+input[type="number"]{
+    width: 200px;
+    height: 40px;
+    
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    border-radius: 40%;
+    
+}
+

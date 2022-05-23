@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="post">
+        <img src="/images/boy 1.jpg" class="post-image" alt="">
+        <div class="post-content">
+            <div class="reaction-wrapper">
+                <img src="/images/hearticon.png" class="like icon" alt="">
+                <img src="/images/bubble-chat.png" class="comment icon" alt="">
+                <img src="/images/send.png" class="send icon" alt="">
+                <img src="/images/save-instagram.png" class="save icon" alt="">
+            </div>
+            <p class="likes">1,012 likes</p>
+            <p class="description"><span>Michael </span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+                cum repellat velit quae suscipit</p>
+            <p class="post-time">15 minutes ago</p>
+        </div>
+        <div class="comment-wrapper">
+            <button class="icon" alt="">Emoji</button>
+
+            <input type="text" name="message" id="textbox" class="comment-box">
+            <button id="button">Send</button>
+            <div id="message"></div>
+
+
+
+            <script>
+                var msg = document.getElementById("message");
+                var button = document.getElementById("button");
+                var textBox = document.getElementById("textbox");
+
+                // This event is fired when button is clicked
+                button.addEventListener("click", function () {
+                    var str = textBox.value;
+                    console.log(str);
+                    msg.innerHTML += "<p>" + str + "</p>";
+                });
+
+                textBox.addEventListener("keyup", function (event) {
+
+                    // Checking if key pressed is ENTER or not
+                    // if the key pressed is ENTER
+                    // click listener on button is called
+                    if (event.keyCode == 13) {
+                        button.click();
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</div>
